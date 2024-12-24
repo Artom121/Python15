@@ -4,61 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Маршрут путешествия</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        form {
-            background-color: #ffffff;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            margin: auto;
-        }
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: bold;
-        }
-        input[type="text"] {
-            width: calc(100% - 16px);
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-bottom: 16px;
-        }
-        button {
-            background-color: #40E0D0;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-        button:hover {
-            background-color: #40E0D0;
-        }
-        .intermediate-city {
-            margin-bottom: 10px;
-        }
-        #intermediate-cities {
-            margin-bottom: 16px;
-        }
-        .add-city-btn {
-            margin-top: 10px;
-        }
-    </style>
     <script>
         function addIntermediateCity() {
             const intermediateCitiesDiv = document.getElementById("intermediate-cities");
